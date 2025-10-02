@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+      <div class="quizapp">
+        <div class="images">
+            <img src="img/draw1.svg" alt="Quiz Image">
+        </div>
+        <div class="text">
+            <h3>Quiz app with fixed time</h3> <br>
+            <p>Lorem ipsum dolor sit amet consectetur.</p> <br>
+            <h3>Quiz app with fixed time</h3> <br>
+            <p>Lorem ipsum dolor sit amet consectetur.</p><br>
+        </div>
+        <div class="mybtn">
+            <button>Start Quiz</button>
+        </div>
+    </div>
+
+    <div class="RulesBox">
+        <div class="RulesTitle">Some Rules of This Quiz</div>
+        <div class="Ruleslist">
+            <ol>
+                <li>You will have <span>15 seconds</span> per each question.</li>
+                <li>Once you select your answer, it can't be undone.</li>
+                <li>You can't select any option once time goes off.</li>
+                <li>You can't exit from the Quiz while you're playing.</li>
+                <li>You will get points on the basis of your correct answers.</li>
+            </ol>
+        </div>
+        <div class="buttons">
+                <button class="ExitButton">Exit Quiz</button>
+                <button class="ContinueButton">Continue</button>
+            </div>
+    </div>
+
+     <div class="FullDiv">
+        <header class="QueHeading">
+            <div class="title">Start Exam</div>
+
+            <div class="timer">
+                <div class="timeleft">Time Left</div>
+                <div class="seconds">15</div>
+            </div>
+            <div class="time_line"> </div>
+        </header>
+        
+        <div class="section">
+            <div class="question1">
+                <!-- <span>1. What does HTML stands for?</span> -->
+            </div><br>
+
+            <div class="Myoptions">
+
+                <div class="options1">
+                    
+                </div>
+
+                </div>
+                
+                </div>
+                
+                <footer>
+                        <div class="foot">
+                        <!-- <p>1 of 5 questions</p> -->
+                    </div>
+                    <button class="nxtbtn">Next Question</button> 
+                </footer>
+            </div>
+
+            <div class="resultbox">
+                <div class="icon">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="congratulations">
+                    You have finished the exam!
+                </div>
+                <div class="scoretext">
+                    <!-- <span>You got <p>0</p> out of <p>5</p></span> -->
+                </div>
+                <div class="finalbuttons">
+                    <button class="quit">Quit Quiz</button>
+                    <button class="restart">Restart</button>
+                </div>
+            </div>
+
+                <script src="index.js"></script>
+                <script src="js/ques.js"></script>
+</body>
+</html>
